@@ -1,8 +1,13 @@
 target/
+/target/**/*
+/**/.idea/**/*
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+/**/*.iml
+/**/local.log
 .kotlin
+/build/test-results/
 
 ### IntelliJ IDEA ###
 .idea/*
